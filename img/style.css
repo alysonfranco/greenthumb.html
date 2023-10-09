@@ -1,0 +1,317 @@
+:root  {
+    display: flexbox;
+    width: 100%;
+    background-color: #9BD07B;
+    --bg-color: #D3F5BF;
+    --header: #4F2A02;
+    --subheader: #007001;  
+    font-family: "gill sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/*website header*/
+
+html {
+    scroll-behavior: smooth;
+} 
+
+h1 {
+    font-family: fantasy;
+    font-size: 3.75rem;
+    font-stretch: ultra-expanded;
+    color: var(--header);
+    margin: 10px 10px;
+    text-shadow: 2px 2px 3px black;
+    animation-name: header;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.sub_header {
+    font-family: papyrus, fantasy;
+    font-size: 1.25rem;
+    color: var(--subheader);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.section_header {
+    font-family: papyrus, fantasy;
+    font-size: xx-large;
+    color: var(--header);
+    padding: 10px 10px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 2px 2px 3px;
+}
+
+.top {
+    position: relative;
+    background-color: var(--bg-color);
+    text-align: center;
+    border-radius: 25px;
+}
+
+
+/*navigation*/
+
+nav {
+    padding-bottom: 10px;
+}
+
+
+ul li {
+    display: inline-flex;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+nav li a {
+    text-decoration: none; 
+    padding: 5px 10px;
+    font-family: monaco;
+    font-variant: small-caps;
+    font-size: larger;
+}
+nav li a:hover {
+    text-decoration: none; 
+    color: white;
+    background-color: #BE8662;
+    border-radius: 25px;
+}
+
+li a {
+    text-decoration: none; 
+    color: #4F2A02;
+    font-family: monaco;
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none; 
+    color: #4F2A02;
+}
+
+a:hover {
+    text-decoration: none; 
+    color: white;
+}
+
+.moreinfo a:hover {
+    text-decoration: none; 
+    color: #007001;
+}
+
+.logo1, .logo2 {
+    width: 65px;
+}
+
+.logo1 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.logo2 {
+   position: absolute;
+   top: 10px;
+   right: 15px;
+}
+
+/*general styling*/
+
+th {
+    font-family: papyrus, fantasy;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: x-large;
+    color: var(--subheader);
+}
+
+td {
+    padding: 10px;
+    background-color: #DAC3A9;
+    border-radius: 10px;
+}
+
+table {
+    margin: 10px 10px;
+}
+
+figure.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+}
+
+figure img {
+    width: 350px;
+    padding: 10px;
+    background-color: #DAC3A9;
+    box-shadow: 2px 2px 3px;
+}
+
+figcaption {
+    text-align: center;
+    display: block;
+}
+
+.update {
+    padding: 10px;
+    background-color: var(--bg-color);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+
+/*index.html*/
+
+.greenthumb {
+    position: relative;
+    background-color: var(--bg-color);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.plantintro {
+    background-color: #DAC3A9;
+    padding: 10px;
+    width: 850px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.caption {
+    background-color: #DAC3A9;
+    padding: 10px;
+    width: 850px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+ol {
+   padding: 10px;
+   margin: 15px;
+   background-color: #BE8662;
+   border-radius: 10px;
+}
+
+ol li {
+    list-style: none;
+}
+
+
+/*houseplants.html*/
+
+.sliding-glass-door {
+    display: flex;
+    justify-content: center;
+}
+
+.houseplants {
+    background-color: var(--bg-color);
+    margin: 10px;
+    border-radius: 25px;
+    width: 925px;
+    float: left;
+}
+
+.hp_update {
+    display: flex;
+    background-color: var(--bg-color);
+    margin: 10px;
+    border-radius: 25px;
+    width: 925px;
+    float: left;
+}
+
+.houseplants p {
+    padding: 10px;
+    background-color: #DAC3A9;
+    width: 85%;
+    border-radius: 15px;
+}
+
+
+.houseplant {
+    width: 75%;
+}
+
+/*index.html#gorfi*/
+
+#gorfi {
+    background-color: var(--bg-color);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.gorfi {
+    float: left;
+    width: 50%;
+}
+
+.tothetop {
+    margin: 10px;
+}
+
+/*index.html#moreinfo*/
+
+.bottom_half {
+    position:relative;
+}
+
+.moreinfo {
+    background-color: var(--bg-color);
+    margin-bottom: 10px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 25px;
+    float:left;
+    width: 50%;
+}
+
+.moreinfo h3 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/* nature's shennanigas (natureshennanigans.html)*/
+
+.fauna {
+    background-color: var(--bg-color);
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.fauna p {
+    padding: 10px;
+    background-color: #DAC3A9;
+    width: 750px;
+    border-radius: 15px;
+}
+
+/* animation for the header of my website*/
+
+@keyframes header {
+    0% {color: #007001};
+    25% {color: #4F2A02};
+    50% {color: #BE8662};
+    75% {color: #DAC3A9};
+    100% {color: #D3F5BF};
+}
