@@ -4,7 +4,7 @@ This was the first project I worked on in my Internet Applications class, based 
 
 Working with HTML wasn't too difficult for me; however, the introduction of CSS and Flexbox was a steep learning curve. I am proud of what I accomplished during my first time working with CSS.<br>
 
-Preview: **this website is not responsive/mobile friendly
+**Preview:** **this website is not responsive/mobile friendly
 ![mygreenthumb_preview](https://github.com/alysonfranco/greenthumb.html/assets/101274727/277a80c4-9ed7-41fa-a272-aef263746f84)
 
 
